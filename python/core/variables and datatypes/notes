@@ -1,0 +1,22 @@
+4. Variables
+Variables are used to store data values in memory.
+Syntax:
+varable_name = value
+Examples:
+x = 10
+y = "Python"
+z = 3.14
+Python is dynamically typed, meaning you do not need to declare the type of a variable explicitly.
+________________________________________
+5. Data Types
+Each value in Python has a data type. Python automatically assigns the type.
+Common Data Types:
+Type	Description	Example
+int	Whole numbers	10, -5
+float	Decimal numbers	3.14, -0.5
+str	Text (string)	"Hello"
+bool	True or False	True, False
+None	Represents no value	None
+Example:
+x = 10
+print(type(x))  # <class 'int'>

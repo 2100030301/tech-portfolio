@@ -1,0 +1,29 @@
+1. Introduction to Python
+Python is a high-level, interpreted, general-purpose programming language created by Guido van Rossum and released in 1991. It is known for its simplicity, readability, and wide range of applications.
+Python is called an interpreted language because its code is executed line by line by the Python interpreter at runtime, without being compiled into machine code beforehand. This makes debugging easier and speeds up development.
+Why Python?
+•	Easy to learn and read
+•	Large standard library
+•	Strong community support
+•	Used in web development, data science, automation, AI/ML, and more
+Example:
+print("Hello, World!")
+________________________________________
+2. Comments
+Comments are notes written in the code that are ignored by the Python interpreter. They are used to explain code and improve readability.
+Single-line comment:
+x = 10  # This stores the value 10
+Multi-line comment (using triple quotes):
+"""
+This is a multi-line comment
+used for documentation
+"""
+________________________________________
+3. Indentation
+Indentation refers to the spaces at the beginning of a code line. In Python, indentation is mandatory and is used to define blocks of code.
+Example:
+if 5 > 2:
+    print("Five is greater than two")
+Rules:
+•	Use consistent spacing (usually 4 spaces)
+•	All statements in the same block must have the same indentation level

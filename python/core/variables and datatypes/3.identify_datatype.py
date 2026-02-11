@@ -1,0 +1,10 @@
+a = 25
+b = 4.5
+c = "Hello"
+d = True
+e = None
+print(type(a)) # int
+print(type(b)) # float
+print(type(c)) # str
+print(type(d)) # bool
+print(type(e)) # NoneType
