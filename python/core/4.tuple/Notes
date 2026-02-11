@@ -1,0 +1,7 @@
+7. Tuple
+A tuple is similar to a list, but it is immutable (cannot be changed after creation).
+Syntax:
+my_tuple = (1, 2, 3)
+Example:
+coordinates = (10, 20)
+# coordinates[0] = 5  # Error: tuples are immutable
