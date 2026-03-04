@@ -1,0 +1,7 @@
+Lambda Functions
+A lambda function is a small, anonymous function defined using the lambda keyword.
+Syntax:
+lambda arguments: expression
+Examples:
+add = lambda a, b: a + b
+print(add(10, 20))  # 30
