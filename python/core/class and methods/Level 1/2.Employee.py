@@ -6,10 +6,12 @@ Demonstrate how this change affects all instances
 
 class Employee:
     company_name="TechCorp"
+    def __init__(self, name):
+        self.name = name
     @classmethod
-    def changename(cls,x):
-        cls.company_name=x
+    def change_company(cls,new_name):
+        cls.company_name = new_name
 
-print(Employee.company_name)
-Employee.company_name="CVCORP"
-print(Employee.company_name)
+e1 = Employee("Rishi")
+e1.change_company("CvCorp")
+print(e1.company_name)

@@ -6,14 +6,16 @@ Q5. Create a class Temperature with:
 """
 
 class Temperature:
-    def __init__(self,celsius):
+    def __init__(self, celsius):
         self.celsius=celsius
     @staticmethod
     def to_fahrenheit(celsius):
-        return (celsius * 9/5) + 32
+        fahrenheit = (celsius * 9/5) + 32
+        return fahrenheit
     def show_conversion(self):
         fahrenheit = Temperature.to_fahrenheit(self.celsius)
-        print(f"Celsius :", self.celsius)
-        print(f'Farhenheit :',fahrenheit)
-t1=Temperature(9.8)
-t1.show_conversion()
+        print(f'Celsius : {self.celsius}')
+        print(f'Farenheit : {fahrenheit}')
+
+t = Temperature(9.8)
+t.show_conversion()
