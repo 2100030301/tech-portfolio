@@ -7,7 +7,6 @@ Perform the following in a single pipeline:
 • Use reduce() to calculate the sum of remaining numbers
 """
 from functools import reduce
-
 lst = [5, 10, 7, 15, 3, 20, 25]
 mp = list(map(lambda x : x*x, lst))
 print(mp)
